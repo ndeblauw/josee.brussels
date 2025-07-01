@@ -27,7 +27,56 @@
                 <span class="font-bold">Contact</span><br/>
                 <a class="text-sky-300 hover:text-clay-500" href="mailto:fanclub@josee.brussels">fanclub@josee.brussels</a>
             </div>
-            <img src="{{asset('images/josee-singing.png')}}" alt="Josée singing" class="w-full h-auto">
+            <img src="{{asset('images/josee-singing.png')}}" alt="Josée singing" class="w-2/3 mx-auto h-auto">
+
+            <div class="mx-2 md:mx-0">
+                <livewire:contact-form/>
+
+                <div class="text-center text-lg md:text-2xl font-bold mb-4 mt-6">
+                    <span class="text-clay-500">Fanclub Josée</span>
+                </div>
+                <div class="grid grid-cols-2 gap-x-6 text-sm md:text-base">
+                    <div class="text-brown-700">
+                        <p class="mb-2">
+                            Pendant des années, Josée a planté en nous, son Fan Club, des petites graines d’amour, de partage et de créativité. Cet été, Josée ne sera pas là pour nous réunir…
+                        </p>
+                        <p class="mb-2">
+                            Mais le Josée Spirit vit en nous! Alors nous allons continuer d’investir nos quartiers, de nous rassembler et de disperser notre amour à travers une invasion de petits coeurs ‘Josée’.
+                        </p>
+
+                        <p class="mb-2">
+                            Concrètement: des moments de rencontre, des ateliers et un livret mode d’emploi pour vous donner des idées de comment fabriquer vos coeurs pour clamer haut et fort:
+                            “WE LOVE JOSEE”
+                        </p>
+                        <p class="mb-2">
+                            Pour rejoindre le Fan Club Josée, recevoir le livret et vous tenir informé.e.s des moments de rencontre à venir, laissez nous votre adresse mail!
+                        </p>
+                        <p>
+                            Le Fan Club Josée.
+                        </p>
+                    </div>
+                    <div class="text-brown-700">
+                        <p class="mb-2">
+                            Jarenlang heeft Josée zaadjes van liefde, uitwisseling en creativiteit geplant in ons, haar fanclub. Deze zomer zal Josée er niet zijn om ons samen te brengen...
+                        </p>
+                        <p class="mb-2">
+                            Maar de Josée Spirit leeft voort in ons! Dus gaan we door met onze wijken in te nemen, samen te komen en onze liefde te verspreiden via een invasie van ‘Josée’-hartjes.
+                        </p>
+                        <p class="mb-2">
+                            Concreet: ontmoetingsmomenten, workshops en een instructieboekje vol ideeën over hoe je zelf hartjes kan maken om luid en duidelijk te roepen:
+                            “WE LOVE JOSEE”
+                        </p>
+                        <p class="mb-2">
+                            Wil je meedoen met de Fanclub Josée, het boekje ontvangen en op de hoogte blijven van toekomstige ontmoetingen?
+                            Laat dan je e-mailadres achter!
+                        </p>
+                        <p class="mb-2">
+                            De Josée Fanclub.
+                        </p>
+
+                    </div>
+
+            </div>
         </div>
     </body>
 
